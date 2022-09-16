@@ -1,0 +1,181 @@
+:root {
+  --m_yellow: #f5df4e;
+  --m_grey: #707070;
+  --m_blue: #2d4263;
+  --m_brown: #483434;
+}
+
+body {
+  background-color: var(--m_blue);
+  font-family: "ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar{
+  transition: 0.5s;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url("/assets/image/bg-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  min-height: 100vh;
+  color: white;
+  padding-top: 75px;
+}
+
+#hero h1 {
+  font-size: 2.2rem;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+#hero h1 span {
+  color: var(--m_yellow);
+  font-weight: 500;
+}
+
+/* End Hero Section */
+
+/* About Section */
+#about {
+  background-image: url("/assets/image/bg-about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  min-height: 50vh;
+  color: white;
+  font-family: "ubuntu", sans-serif;
+}
+
+#about h1, hr{
+  color: var(--m_yellow);
+}
+
+#about h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 4rem;
+}
+
+#about hr {
+  opacity: 100%;
+  width: 25%;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+.about-detail {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.about-detail span#junior{
+  color: rgb(85, 243, 85);
+}
+.about-detail span#senior{
+  color: gold;
+}
+
+#bio {
+  margin-top: 120px;
+}
+/* End About Section */
+
+/* Skill Section */
+#skill {
+  min-height: 100vh;
+  /* background-color: var(--m_grey); */
+  background-image: url("/assets/image/bg-skill.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--m_yellow);
+  font-family: "ubuntu", sans-serif;
+}
+
+#skill h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 4rem;
+}
+
+#skill hr {
+  opacity: 100%;
+  width: 25%;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+#skill-logo-container img{
+  transition: 0.5s;
+  margin: 20px;
+}
+
+#skill-logo-container img:hover{
+  transform: scale(1.7);
+}
+
+/* End Skill Section */
+
+/* Certificate Section */
+#certificate {
+  min-height: 100vh;
+  background-image: url("/assets/image/bg-certif.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--m_yellow);
+  font-family: "ubuntu", sans-serif;
+}
+
+#certificate h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 4rem;
+}
+
+#certificate hr {
+  opacity: 100%;
+  width: 25%;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+.container-certif{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sertif img{
+  height: 150px;
+  transition: 0.5s;
+  margin: 20px;
+  display: block;
+}
+
+#sertif img:hover{
+  transform: scale(2.5);
+  z-index: 2;
+}
+/* End Certificate Section */
+
+/* Contact Section */
+#contact {
+  color: var(--m_yellow);
+  font-family: "Bubblegum Sans", cursive;
+}
+#contact img {
+  width: 3%;
+  padding: 3px;
+}
+/* End Contact Section */
