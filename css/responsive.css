@@ -9,22 +9,44 @@
     font-size: 0.7rem;
   }
   #hero img {
+    margin-top: -75px;
     width: 70%;
+  }
+
+  #about{
+    padding-top: 50px;
   }
   #about h1 {
     font-size: 2.3rem;
   }
-  .about-detail {
-    font-size: 1.2rem;
+  #about p{
+    margin-top: -25px;
+    font-size: 1rem;
   }
-  #bio {
-    font-size: 0.75rem;
-  }
+
   #skill {
     min-height: 430px;
   }
+
+  #skill img{
+    width: 25%;
+    overflow-x: auto;
+  }
+
   #skill h1 {
     font-size: 2.3rem;
+  }
+
+  #certificate h1 {
+    font-size: 2.3rem;
+  }
+  
+  #certificate img{
+    display: block;
+    width: 50%;height: 50%;
+  }
+  #certificate img:hover{
+    transform: scale(2);
   }
   #contact img {
     width: 5%;
@@ -42,6 +64,7 @@
   }
   #hero img {
     width: 60%;
+    margin-top: -50px;
   }
   #about h1 {
     font-size: 2.3rem;
@@ -58,11 +81,23 @@
   #skill h1 {
     font-size: 2.3rem;
   }
+  
+  #skill img{
+    width: 20%;
+    overflow-x: auto;
+  }
+
+  #certificate h1 {
+    font-size: 2.3rem;
+  }
   #contact img {
     width: 5%;
   }
 }
 @media screen and (min-width: 768px) {
+  #hero{
+    min-height: 130vh;
+  }
   #hero h1 {
     font-size: 1.8rem;
   }
@@ -74,9 +109,10 @@
   }
   #hero img {
     width: 60%;
+    margin-top: 7px;
   }
   #about h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem;  
   }
   .about-detail {
     font-size: 1.2rem;
@@ -90,11 +126,17 @@
   #skill h1 {
     font-size: 2.5rem;
   }
+  #certificate h1 {
+    font-size: 2.5rem;
+  }
   #contact img {
     width: 4%;
   }
 }
 @media screen and (min-width: 992px) {
+  #hero{
+    min-height: 100vh;
+  }
   #hero h1 {
     font-size: 1.85rem;
   }
@@ -121,6 +163,9 @@
     min-height: 600px;
   }
   #skill h1 {
+    font-size: 3rem;
+  }
+  #certificate h1 {
     font-size: 3rem;
   }
   #contact img {
@@ -161,6 +206,9 @@
   }
   #skill img {
     width: 10%;
+  }
+  #certificate h1 {
+    font-size: 4rem;
   }
   #contact img {
     width: 3%;

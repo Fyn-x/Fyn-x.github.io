@@ -150,17 +150,17 @@ body {
   margin: 0 auto;
 }
 
-.container-certif{
+.container-certificate{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-}
+ }
 
 #sertif img{
   height: 150px;
   transition: 0.5s;
   margin: 20px;
-  display: block;
 }
 
 #sertif img:hover{
